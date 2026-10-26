@@ -1,0 +1,308 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:582517c6-aa83-488c-80ad-3e76b754ccad",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-26T09:50:27Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.54.1"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c6f99f0019de27e3",
+      "type": "application",
+      "name": "document-intake-service",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/commons-fileupload/commons-fileupload@1.4?package-id=4db336811aae39f3",
+      "type": "library",
+      "group": "commons-fileupload",
+      "name": "commons-fileupload",
+      "version": "1.4",
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License, Version 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:commons-fileupload:1.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-fileupload/commons-fileupload@1.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons_fileupload:1.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons:1.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/document-intake-service-1.0.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "commons-fileupload"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-fileupload"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/document-intake-service-1.0.0.jar:commons-fileupload:commons-fileupload"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.2?package-id=bad45565e3decf7e",
+      "type": "library",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.2",
+      "licenses": [
+        {
+          "license": {
+            "name": "The Apache Software License, Version 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:apache:commons-io:2.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-io/commons-io@2.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons_io:2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:commons:2.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/document-intake-service-1.0.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "commons-io"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-io"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/document-intake-service-1.0.0.jar:commons-io:commons-io"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.example/document-intake-service@1.0.0?package-id=efd3cdcfdb6c5343",
+      "type": "library",
+      "group": "com.example",
+      "name": "document-intake-service",
+      "version": "1.0.0",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "cpe": "cpe:2.3:a:com.example.intake.Application:document-intake-service:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.example/document-intake-service@1.0.0",
+      "externalReferences": [
+        {
+          "url": "",
+          "hashes": [
+            {
+              "alg": "SHA-1",
+              "content": "d85158920d2dd7385f0a6612f011c4ddceed299a"
+            }
+          ],
+          "type": "build-meta"
+        }
+      ],
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-archive-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:com.example.intake.Application:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document-intake-service:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document-intake-service:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document_intake_service:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document_intake_service:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document-intake:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document-intake:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document_intake:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document_intake:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Application:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Application:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:com.example:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:com.example:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:document:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:example:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:example:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:intake:document-intake-service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:intake:document_intake_service:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/document-intake-service-1.0.0.jar"
+        },
+        {
+          "name": "syft:metadata:-:artifactID",
+          "value": "document-intake-service"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.example"
+        },
+        {
+          "name": "syft:metadata:virtualPath",
+          "value": "/document-intake-service-1.0.0.jar"
+        }
+      ]
+    },
+    {
+      "bom-ref": "6238cfc4b2de73c9",
+      "type": "file",
+      "name": "/app/target/document-intake-service-1.0.0.jar",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "d85158920d2dd7385f0a6612f011c4ddceed299a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "00661409f415782dd56ad6f96ba07bea06b5fbbc6ab4a1148f0c3cc06143e3c2"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/com.example/document-intake-service@1.0.0?package-id=efd3cdcfdb6c5343",
+      "dependsOn": [
+        "pkg:maven/commons-fileupload/commons-fileupload@1.4?package-id=4db336811aae39f3",
+        "pkg:maven/commons-io/commons-io@2.2?package-id=bad45565e3decf7e"
+      ]
+    }
+  ]
+}
